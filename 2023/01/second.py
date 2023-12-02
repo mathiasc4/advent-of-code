@@ -43,8 +43,6 @@ def findCalibrationValue(line: str):
     return (firstDigit * 10) + lastDigit
 
 
-findCalibrationValue("fourbsqr7bktkbqbdlpfour")
-
 with open("./input", "r") as input:
     sum: int = 0
 
